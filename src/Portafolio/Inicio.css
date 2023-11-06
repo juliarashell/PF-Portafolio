@@ -1,0 +1,85 @@
+.inicio-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in-out; /* Aplica la animación de desvanecimiento */
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.2s, box-shadow 0.2s; /* Añade una transición suave al pasar el mouse */
+}
+
+.profile-photo:hover {
+  transform: scale(1.1); /* Aplica un efecto de escala al pasar el mouse */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Agrega una iluminación al pasar el mouse */
+}
+
+h2 {
+  font-family: ' Tahoma';
+  font-style: oblique;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  font-family:' Tahoma';
+  font-style: oblique;
+}
+
+
+h4 {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255);
+  font-family: ' Cambria';
+  font-style: oblique;
+}
+
+body {
+  background-image: url('../images/fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+p {
+  word-wrap: break-word;
+  margin-bottom: 85px;
+  color: rgb(0, 0, 0);
+  background-color:rgba(208, 231, 239, 0.633);/* Color celeste con transparencia */
+  padding: 10px; /* Añade un relleno para espaciar el texto del fondo */
+  max-width: 100%; /* Ocupa el 100% del ancho del contenedor principal */
+  text-align: left; /* Alinea el contenido de izquierda a derecha */
+  font-family:' Cambria';
+  transition: transform 0.2s, box-shadow 0.2s; /* Añade una transición suave al pasar el mouse */
+  border-radius: 10px;
+}
+
+p:hover {
+  transform: scale(1.05); /* Aplica un efecto de escala al pasar el mouse */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Agrega una iluminación al pasar el mouse */
+}
+
+.contact-icons img {
+  width: 50px; /* Ajusta el ancho de las imágenes */
+  height: 50px; /* Ajusta la altura de las imágenes */
+  border-radius: 50%; /* Aplica bordes redondeados a las imágenes */
+  border: 2px solid #ffffff;
+}
+
+

@@ -1,0 +1,84 @@
+/* Estilos para el contenedor principal de la página de contacto */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 550px;
+  animation: fadeIn 1s ease-in-out; /* Aplica la animación de desvanecimiento */
+  
+}
+
+/* Estilos para el cuadro de contacto */
+.contact-box {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(173, 216, 230, 0.5); /* Fondo celeste transparente */
+  
+}
+
+.contact-box h3 {
+  font-size: 24px;
+  margin: 5px;
+  color: white;
+}
+
+.contact-box p {
+  margin: 8px;
+  font-family: ' Tahoma';
+  font-size: 15px;
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  height: 160px; /* Ajusta la altura deseada */
+  
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: ' Tahoma';
+  font-style: oblique;
+}
+
+button {
+  width: 30%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 0;
+  background-color: rgba(19, 96, 104, 0.775); /* Color celeste con transparencia */
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: ' Tahoma';
+  font-weight: bold; /* Hace que el texto sea negrita */
+  transition: transform 0.2s, box-shadow 0.2s; /* Añade una transición suave al pasar el mouse */
+}
+
+/* Establece el color de fondo al pasar el mouse sobre el botón */
+button:hover {
+  transform: scale(1.05); /* Aplica un efecto de escala al pasar el mouse */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Agrega una iluminación al pasar el mouse */
+  
+}
+
+.contact-icons img {
+  width: 50px; /* Ajusta el ancho de las imágenes */
+  height: 50px; /* Ajusta la altura de las imágenes */
+  border-radius: 50%; /* Aplica bordes redondeados a las imágenes */
+  margin: 5px; /* Agrega espacio entre el formulario y las imágenes */
+  border: 2px solid #ffffff;
+}

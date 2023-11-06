@@ -1,0 +1,58 @@
+/* Estilos para el contenedor principal de la página de proyectos */
+.proyectos-container {
+    display: flex;
+    flex-direction: row; /* Alinea los contenedores horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+    justify-content: space-between; /* Centra horizontalmente los contenedores */
+    max-width: 800px;
+    margin: 0 auto; /* Establece un margen horizontal automático para centrar los contenedores */
+    margin-top: 80px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+  
+  
+  .proyectos-container a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  /* Estilos para cada proyecto */
+  .proyecto {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(208, 231, 239, 0.633); /* Fondo celeste transparente */
+    transition: transform 0.2s; /* Añade una transición suave al pasar el mouse */
+    margin: 10px; /* Añade margen entre los contenedores */
+    height: 200px; /* Establece la altura fija para todos los elementos */
+    width: 200px; /* Establece el ancho fijo para todos los elementos */
+  }
+  
+  .proyectos-title {
+    font-size: 24px;
+    margin: 10px;
+    margin-top: 10px;
+    
+    
+  }
+
+  body.proyectos {
+    background-image: url('../images/fondoproy.png');
+  }
+  
+h2{
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+ 

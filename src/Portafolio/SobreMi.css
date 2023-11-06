@@ -1,0 +1,63 @@
+.SobreMi-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body.sobre-mi {
+  background-image: url('../images/sobremi.png');
+}
+
+.sobre-mi-title {
+  font-size: 24px;
+  margin: 10px;
+  margin-top: 10px;
+}
+
+.about-photo {
+  display: block;
+  border-radius: 50%;
+  width: 145px;
+  height: 150px;
+  transition: transform 0.2s, box-shadow 0.2s; /* Añade una transición suave al pasar el mouse */
+}
+
+.about-photo:hover {
+  transform: scale(1.1); /* Aplica un efecto de escala al pasar el mouse */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Agrega una iluminación al pasar el mouse */
+}
+
+.sobre-mi-description,
+.sobre-mi-2,
+.sobre-mi-3 {
+  margin: 10px;
+  text-align: left;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s; /* Añade una transición suave al pasar el mouse */
+  background-color: rgba(208, 231, 239, 0.633);
+}
+
+.sobre-mi-description:hover,
+.sobre-mi-2:hover,
+.sobre-mi-3:hover {
+  transform: scale(1.05); /* Aplica un efecto de escala al pasar el mouse */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Agrega una iluminación al pasar el mouse */
+}
+
