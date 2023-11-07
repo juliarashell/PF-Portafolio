@@ -8,12 +8,12 @@ function Contacto() {
   return (
     <div className="contact-container">
       <div className="contact-box">
-        <h3>Contáctame!</h3> 
+        <h3>Contáctame</h3> 
         <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través del siguiente mail o número de teléfono:</p>
         <p><strong> Email:</strong> jlopezc@miumg.edu.gt</p>
         <p><strong> Teléfono:</strong> 5571-9325</p>
         <form>
-          <input type="text" placeholder="Nombre" />
+          <input type="text" placeholder="Nombre" /> 
           <input type="email" placeholder="Correo" />
           <input type="mensaje" placeholder="Mensaje" />
           <button type="submit">Enviar</button>

@@ -1,58 +1,67 @@
-/* Estilos para el contenedor principal de la página de proyectos */
-.proyectos-container {
+/* Estilos para el contenedor principal de la pestaña proyectos */
+  .proyectos-container {
     display: flex;
     flex-direction: row; /* Alinea los contenedores horizontalmente */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+    flex-wrap: wrap;    /* Permite que los elementos se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
     justify-content: space-between; /* Centra horizontalmente los contenedores */
     max-width: 800px;
-    margin: 0 auto; /* Establece un margen horizontal automático para centrar los contenedores */
+    margin: 0 auto;     /* Establece un margen horizontal automático para centrar los contenedores */
     margin-top: 80px;
-    animation: fadeIn 1s ease-in-out;
-}
-
-@keyframes fadeIn {
+    animation: fadeIn 1s ease-in-out; /* Aplica una animación llamada "fadeIn" con una duración de 1 segundo */
+  }
+ 
+  @keyframes fadeIn { /* Definición de la animación "fadeIn" */
   from {
-    opacity: 0;
+    opacity: 0; /* Inicio de la animación con opacidad 0 (invisible) */
   }
   to {
-    opacity: 1;
+    opacity: 1; /* Fin de la animación con opacidad 1 (totalmente visible) */
   }
 }
-  
-  
-  .proyectos-container a {
+ 
+
+/* Estilos para los enlaces dentro del contenedor de proyectos */
+.proyectos-container a {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
-  }
+}
   
-  /* Estilos para cada proyecto */
+/* Estilos para cada proyecto dentro del contenedor */
   .proyecto {
-    text-align: center;
+    text-align: center;        /* Centra el contenido de los proyectos horizontalmente */
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 1px solid #ccc;  /* Agrega un borde de 1 píxel sólido */
+    border-radius: 10px;       /* Agrega esquinas redondeadas */
     background-color: rgba(208, 231, 239, 0.633); /* Fondo celeste transparente */
     transition: transform 0.2s; /* Añade una transición suave al pasar el mouse */
-    margin: 10px; /* Añade margen entre los contenedores */
-    height: 200px; /* Establece la altura fija para todos los elementos */
-    width: 200px; /* Establece el ancho fijo para todos los elementos */
-  }
-  
-  .proyectos-title {
-    font-size: 24px;
-    margin: 10px;
-    margin-top: 10px;
-    
-    
-  }
+    margin: 10px;   /* Añade margen entre los contenedores */
+    height: 200px;  /* Establece la altura fija para todos los elementos */
+    width: 200px;  /* Establece el ancho fijo para todos los elementos */
+}
+ 
 
-  body.proyectos {
+/*Fondo de la pestaña*/
+body.proyectos {
     background-image: url('../images/fondoproy.png');
-  }
+}
   
 h2{
   font-size: 24px;
   margin-top: 20px;
   text-align: center;
   color: white;
+}
+
+h5{
+  text-decoration:underline;
+  font-family: ' Cambria';
+  font-style: oblique;
+  font-size: 17px;
+  transition: transform 0.2s;
+  margin-top: 10px;
+  color: rgb(58, 10, 136)
+}
+
+h5:hover {
+  transform: scale(1.1); /* Aplica un efecto de escala al pasar el mouse */
 }
  

@@ -18,13 +18,13 @@ function Proyectos() {
       <div className="proyectos-container">
         <div className="proyecto">
           <a href="https://github.com/juliarashell/-SnakeGame-" target="_blank" rel="noopener noreferrer">
-            <h3>Snake Game</h3><br></br>
+            <h5>Snake Game</h5><br></br>
             <p>El famoso minijuego diseñado mediante una matriz 8×8</p>
           </a>
         </div>
         <div className="proyecto">
           <a href="https://github.com/juliarashell/DISPLAY-7-SEGMENTOS" target="_blank" rel="noopener noreferrer">
-            <h3>Contador con Display</h3>
+            <h5>Contador con Display</h5>
             <p>Se utiliza un display de 7 segmentos, mediante cátodo común para crear un contador ascendente y descendente, 
                 controlado por medio de dos Push Button.
             </p>
@@ -32,7 +32,7 @@ function Proyectos() {
         </div>
         <div className="proyecto">
           <a href="https://github.com/juliarashell/Lab5--Sensor-Ultrasonico" target="_blank" rel="noopener noreferrer">
-            <h3>Sensor Ultrasónico</h3>
+            <h5>Sensor Ultrasónico</h5>
             <p>Se utiliza, un sensor ultrasónico para medir distancias de objetos y graficar en processing la lectura de la 
               transmisión del sonido.
             </p>
